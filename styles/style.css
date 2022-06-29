@@ -1,26 +1,52 @@
 body{
     text-align: center;
-    background-color: black;
-    
+    background-color: rgb(0, 0, 0);
+}
+
+button{
+    background-color: blue;
+    font-size: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    width: 150px;
+}
+
+button:hover{
+    background-color: rgb(45, 255, 135);
+    color: black;
+    transition-duration: 0.5s;
+    border-radius: 10px;
 }
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    text-shadow: 2px;
 }
 
 .square{
-    width: 150px;
-    height: 150px;
+    width: 15%;
+    height: 10rem;
     background-color: white;
     border: 2px solid rgb(255, 255, 255);
     display: inline-block;
-    border-radius: 20px;
+    border-radius: 15px;
     margin: 5px;
 }
 
+.square:hover{
+    background-color: rgb(45, 255, 135);
+    border: none;
+    transition-duration: 0.5s;
+    border-radius: 20px;
+}
+
 .o{
-    
     position: relative;
 }
 
